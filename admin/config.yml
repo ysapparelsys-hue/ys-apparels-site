@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: OWNER/REPO
+  repo: ysapparelsys-hue/ys-apparels-site
   branch: main
 
 media_folder: "assets/uploads"
