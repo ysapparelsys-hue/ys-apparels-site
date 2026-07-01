@@ -1,0 +1,21 @@
+{
+  "logos": [
+    { "image": "assets/clients/mustang.png", "name": "Mustang", "variant": "dark" },
+    { "image": "assets/clients/goosecraft.png", "name": "Goosecraft", "variant": "dark" },
+    { "image": "assets/clients/freaky-nation.png", "name": "Freaky Nation", "variant": "dark" },
+    { "image": "assets/clients/bull-and-berry.png", "name": "Bull & Berry", "variant": "light" },
+    { "image": "assets/clients/jilani.png", "name": "Jilani", "variant": "light" },
+    { "image": "assets/clients/mainpol.png", "name": "Mainpol", "variant": "dark" },
+    { "image": "assets/clients/engbers.svg", "name": "Engbers", "variant": "light" },
+    { "image": "assets/clients/jp1880.svg", "name": "JP 1880", "variant": "light" },
+    { "image": "assets/clients/sthuge.svg", "name": "Sthuge", "variant": "light" },
+    { "image": "assets/clients/babista.svg", "name": "Babista", "variant": "light" },
+    { "image": "assets/clients/boston-park.svg", "name": "Boston Park", "variant": "light" },
+    { "image": "assets/clients/men-plus.svg", "name": "Men Plus", "variant": "light" },
+    { "image": "assets/clients/jcc.jpeg", "name": "JCC", "variant": "dark" },
+    { "image": "assets/clients/ibana.jpeg", "name": "Ibana", "variant": "dark" },
+    { "image": "assets/clients/maze.png", "name": "Maze", "variant": "light" },
+    { "image": "assets/clients/oxxo.png", "name": "Oxxo", "variant": "light" },
+    { "image": "assets/clients/topgun.png", "name": "Topgun", "variant": "light" }
+  ]
+}

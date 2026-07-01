@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     width="1560" height="480" viewBox="240 50 1560 480">
+  <title>YS Apparels Logo Mark</title>
+  <desc>Manual vector reconstruction from the supplied registered raster reference.</desc>
+  <g inkscape:groupmode="layer" inkscape:label="Logo Mark" id="Layer-Mark">
+    
+  <g id="YS-Apparels-Mark">
+    <g id="Letter-Y">
+      <rect id="Y-Gold-Stem" x="423" y="263" width="187" height="256" fill="#D1AF66"/>
+      <path id="Y-Blue-Left-Arm" d="M252,66 H435 L518,176 L422,296 Z" fill="#348FD2"/>
+      <path id="Y-Blue-Right-Arm" d="M595,66 H779 L609,296 L518,176 Z" fill="#348FD2"/>
+      <path id="Y-Purple-Overlap" d="M518,176 L609,296 L518,423 L422,296 Z" fill="#471E7A"/>
+    </g>
+    <g id="Letter-S">
+      <path id="S-Gold-Upper" d="M894,63 H1171 V364 H894
+        C806,364 736,301 736,219
+        C736,133 806,63 894,63 Z" fill="#D1AF66"/>
+      <path id="S-Blue-Lower" d="M894,219 H1171
+        C1256,219 1325,283 1325,364
+        C1325,449 1256,519 1171,519
+        H894 Z" fill="#348FD2"/>
+      <rect id="S-Navy-Overlap" x="894" y="219" width="277" height="145" fill="#002652"/>
+    </g>
+    <g id="Letter-A">
+      <path id="A-Blue-Left-Leg" d="M1536,62 L1627,227 L1461,519 H1283 Z" fill="#348FD2"/>
+      <path id="A-Green-Right-Leg" d="M1536,62 L1787,519 H1616 L1446,227 Z" fill="#74BB4B"/>
+      <path id="A-Maroon-Overlap" d="M1536,62 L1627,227 L1536,382 L1446,227 Z" fill="#440B0B"/>
+    </g>
+  </g>
+
+  </g>
+</svg>

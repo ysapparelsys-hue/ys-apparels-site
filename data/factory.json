@@ -1,0 +1,10 @@
+{
+  "photos": [
+    { "image": "assets/factory/production-floor-wide.png", "caption": "Production floor, wide view", "size": "tall" },
+    { "image": "assets/factory/pattern-cad-desk-1.png", "caption": "Pattern development workstation", "size": "normal" },
+    { "image": "assets/factory/cutting-plotter-1.png", "caption": "Automated cutting table", "size": "normal" },
+    { "image": "assets/factory/stitching-operator.png", "caption": "Stitching operator at work", "size": "normal" },
+    { "image": "assets/factory/quality-check-table.png", "caption": "Quality inspection table", "size": "normal" },
+    { "image": "assets/factory/cutting-inspection-room.png", "caption": "Cutting and inspection room", "size": "normal" }
+  ]
+}

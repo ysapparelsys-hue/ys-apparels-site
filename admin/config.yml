@@ -1,0 +1,69 @@
+backend:
+  name: github
+  repo: OWNER/REPO
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "assets/uploads"
+
+collections:
+  - name: "contact"
+    label: "Contact Information"
+    files:
+      - name: "contact"
+        label: "Contact Details"
+        file: "data/contact.json"
+        fields:
+          - { label: "Email Address", name: "email", widget: "string" }
+          - { label: "Phone Number (as shown on site)", name: "phone_display", widget: "string", hint: "Example: +92 42 3596 5349" }
+          - { label: "Phone Number (for click-to-call, digits only)", name: "phone_tel", widget: "string", hint: "Example: +924235965349 — no spaces or dashes" }
+          - { label: "WhatsApp Number (as shown on site)", name: "whatsapp_display", widget: "string", hint: "Example: +92 300 945 1829" }
+          - { label: "WhatsApp Number (for link, digits only)", name: "whatsapp_number", widget: "string", hint: "Example: 923009451829 — no + or spaces" }
+          - { label: "Factory & Office Address", name: "address", widget: "text", hint: "Press Enter for a new line" }
+
+  - name: "clients"
+    label: "Client Logos"
+    files:
+      - name: "clients"
+        label: "Client Logos"
+        file: "data/clients.json"
+        fields:
+          - label: "Logos"
+            name: "logos"
+            widget: "list"
+            summary: "{{name}}"
+            fields:
+              - { label: "Logo Image", name: "image", widget: "image", media_folder: "/assets/clients", public_folder: "/assets/clients" }
+              - { label: "Client Name (used as alt text)", name: "name", widget: "string" }
+              - { label: "Chip Background", name: "variant", widget: "select", options: ["light", "dark"], default: "light", hint: "Choose 'dark' if the logo itself is white/light colored, 'light' if the logo is dark colored" }
+
+  - name: "factory"
+    label: "Factory Photos"
+    files:
+      - name: "factory"
+        label: "Factory Photos"
+        file: "data/factory.json"
+        fields:
+          - label: "Photos"
+            name: "photos"
+            widget: "list"
+            summary: "{{caption}}"
+            fields:
+              - { label: "Photo", name: "image", widget: "image", media_folder: "/assets/factory", public_folder: "/assets/factory" }
+              - { label: "Caption / Description", name: "caption", widget: "string" }
+              - { label: "Display Size", name: "size", widget: "select", options: ["normal", "tall"], default: "normal", hint: "'tall' makes the photo span two rows in the gallery — use this for at most one photo at a time" }
+
+  - name: "videos"
+    label: "YouTube Videos"
+    files:
+      - name: "videos"
+        label: "YouTube Videos"
+        file: "data/videos.json"
+        fields:
+          - label: "Videos"
+            name: "videos"
+            widget: "list"
+            summary: "{{title}}"
+            fields:
+              - { label: "Video Title", name: "title", widget: "string" }
+              - { label: "YouTube URL", name: "url", widget: "string", hint: "Paste the full YouTube link, for example https://www.youtube.com/watch?v=XXXXXXXXXXX" }
