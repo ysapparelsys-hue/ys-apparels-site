@@ -55,6 +55,11 @@
     if (addrEl && contact.address) {
       addrEl.innerHTML = String(contact.address).split("\n").map(escapeHtml).join("<br>");
     }
+
+    var formEl = document.getElementById("contact-form");
+    if (formEl && contact.formEndpoint) {
+      formEl.action = contact.formEndpoint;
+    }
   }
 
   function buildClientChip(logo, hidden) {

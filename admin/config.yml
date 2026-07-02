@@ -20,6 +20,7 @@ collections:
           - { label: "WhatsApp Number (as shown on site)", name: "whatsapp_display", widget: "string", hint: "Example: +92 300 945 1829" }
           - { label: "WhatsApp Number (for link, digits only)", name: "whatsapp_number", widget: "string", hint: "Example: 923009451829 — no + or spaces" }
           - { label: "Factory & Office Address", name: "address", widget: "text", hint: "Press Enter for a new line" }
+          - { label: "Contact Form Endpoint URL", name: "formEndpoint", widget: "string", hint: "The Formspree endpoint the contact form submits to, e.g. https://formspree.io/f/xxxxxxxx. Only change this if you set up a new Formspree form." }
 
   - name: "clients"
     label: "Client Logos"
