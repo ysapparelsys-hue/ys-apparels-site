@@ -34,6 +34,11 @@
       "size": "normal",
       "image": "/assets/factory/accessory.png",
       "caption": "accessory_Store"
+    },
+    {
+      "size": "normal",
+      "image": "/assets/factory/trim.png",
+      "caption": "trim"
     }
   ]
 }
