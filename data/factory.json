@@ -1,43 +1,43 @@
 {
   "photos": [
     {
-      "image": "assets/factory/production-floor-wide.png",
+      "image": "assets/factory/production-floor-wide.jpg",
       "caption": "Production floor, wide view",
       "size": "tall"
     },
     {
-      "image": "assets/factory/pattern-cad-desk-1.png",
+      "image": "assets/factory/pattern-cad-desk-1.jpg",
       "caption": "Pattern development workstation",
       "size": "normal"
     },
     {
-      "image": "assets/factory/cutting-plotter-1.png",
+      "image": "assets/factory/cutting-plotter-1.jpg",
       "caption": "Automated cutting table",
       "size": "normal"
     },
     {
-      "image": "assets/factory/stitching-operator.png",
+      "image": "assets/factory/stitching-operator.jpg",
       "caption": "Stitching operator at work",
       "size": "normal"
     },
     {
-      "image": "assets/factory/quality-check-table.png",
+      "image": "assets/factory/quality-check-table.jpg",
       "caption": "Quality inspection table",
       "size": "normal"
     },
     {
-      "image": "assets/factory/cutting-inspection-room.png",
+      "image": "assets/factory/cutting-inspection-room.jpg",
       "caption": "Cutting and inspection room",
       "size": "normal"
     },
     {
       "size": "normal",
-      "image": "/assets/factory/accessory.png",
+      "image": "/assets/factory/accessory.jpg",
       "caption": "accessory_Store"
     },
     {
       "size": "normal",
-      "image": "/assets/factory/trim.png",
+      "image": "/assets/factory/trim.jpg",
       "caption": "trim"
     }
   ]
