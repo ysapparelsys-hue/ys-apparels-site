@@ -61,10 +61,13 @@ collections:
         label: "YouTube Videos"
         file: "data/videos.json"
         fields:
-          - label: "Videos"
+          - { label: "YouTube Playlist URL (for the 'Watch on YouTube' link)", name: "playlist", widget: "string", required: false, hint: "e.g. https://www.youtube.com/playlist?list=XXXX. Leave empty to hide the link." }
+          - label: "Videos (shown left to right in this order — drag to reorder)"
             name: "videos"
             widget: "list"
+            required: false
             summary: "{{title}}"
             fields:
               - { label: "Video Title", name: "title", widget: "string" }
-              - { label: "YouTube URL", name: "url", widget: "string", hint: "Paste the full YouTube link, for example https://www.youtube.com/watch?v=XXXXXXXXXXX" }
+              - { label: "YouTube URL", name: "url", widget: "string", required: false, hint: "Paste the full YouTube link, for example https://www.youtube.com/watch?v=XXXXXXXXXXX. Leave empty if the video isn't uploaded yet — the card stays hidden until a link is added." }
+              - { label: "Featured (bigger card)", name: "featured", widget: "boolean", required: false, default: false }

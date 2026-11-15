@@ -1,3 +1,14 @@
 {
-  "videos": []
+  "playlist": "https://www.youtube.com/playlist?list=PLeMYvLiuKU4M",
+  "videos": [
+    { "title": "Full Process: From Hide to Jacket", "url": "https://www.youtube.com/watch?v=B9qbSK2Xs2U", "featured": true },
+    { "title": "01 Trims", "url": "https://www.youtube.com/watch?v=L3jX0OTdAC4" },
+    { "title": "02 Leather Selection", "url": "https://www.youtube.com/watch?v=FObXH6mRFTc" },
+    { "title": "03 Pattern Making", "url": "https://www.youtube.com/watch?v=5UFETytssPY" },
+    { "title": "04 Hand Cutting", "url": "https://www.youtube.com/watch?v=2gLM67gqMFo" },
+    { "title": "05 Stitching", "url": "https://www.youtube.com/watch?v=V1Hgpme0stA" },
+    { "title": "06 Finishing", "url": "https://www.youtube.com/watch?v=2cmaWR1hlqE" },
+    { "title": "07 Inspection", "url": "https://www.youtube.com/watch?v=IVqJX-3jzzo" },
+    { "title": "08 Packing", "url": "" }
+  ]
 }
